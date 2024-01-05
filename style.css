@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+body{
+    background-color: rgb(98, 146, 146);
+}
+
+h3{
+    font-size: 3rem;
+    color: white;
+    background-color: black;
+}
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    gap: 3rem;
+}
+.img{
+    max-width:165px;
+    max-height:165px;
+    border-radius: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img:hover{
+    background-color: rgb(12, 12, 11);
+    cursor: pointer;
+}
+img{
+    max-width: 150px;
+    max-height: 150px;
+    border: 2px solid rgb(128, 233, 159);
+    border-radius: 50%;
+
+}
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 3rem;
+}
+.score{
+    font-size: 3rem;
+    color: rgb(240, 10, 10);
+
+}
+.fc{
+    color: rgb(6, 241, 6);
+}
+.move{
+   margin-top: 4rem;
+}
+#your-move{
+    font-size: 2rem;
+    display: inline ;
+    color: rgb(8, 8, 8);
+    border: 2px solid rgb(131, 56, 56);
+    background-color: rgb(50, 50, 117);
+    color: aliceblue;
+    padding: 1rem;
+    border-radius:12px;
+    
+}
+#restartbtn{
+    margin: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    display: inline;
+    width: 10rem;
+    border-radius: 9px;
+}
+#restartbtn:hover{
+    color: white;
+    background-color: rgb(235, 17, 17);
+    cursor: pointer;
+    
+}
